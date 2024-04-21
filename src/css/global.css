@@ -1,0 +1,46 @@
+:root {
+    /* colors */
+    /* font family */
+    --primary-font: "primaryfont";
+    --secondary-font: "secondaryfont";
+    --tertiary-font: "tertiaryfont";
+    /* fonst sizes */
+    font-size: 16px;
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+    --text-2xl: 24px;
+    --text-3xl: 30px;
+    --text-4xl: 36px;
+    --text-5xl: 48px;
+    --text-6xl: 60px;
+    --text-7xl: 72px;
+    --text-8xl: 96px;
+    --text-9xl: 128px;
+    /* font weigths */
+    --font-thin: 100;
+    --font-extralight: 200;
+    --font-ligth: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    --font-black: 900;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: var(--font-regular);
+    font-family: var(--primary-font);
+    font-size: var(--text-base);
+  }
+
+body{
+
+  background-color:#4490bd;
+
+}

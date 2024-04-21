@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #186693;
+    margin: 10px;
+    gap: 20px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    border: 1px #000 solid;
+    border-radius: 5px;
+
+}
+
+input::placeholder{
+    padding: 3px;
+}
+
+button{
+    border: 1px #000 solid;
+    border-radius: 5px;
+    padding: 2px;
+}

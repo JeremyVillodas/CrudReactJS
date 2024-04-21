@@ -1,0 +1,11 @@
+.container {
+    table {
+        border: 1px solid #000;
+    }
+     
+     th, td {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 1.5rem;
+    }
+}
