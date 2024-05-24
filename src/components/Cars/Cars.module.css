@@ -1,0 +1,27 @@
+.cars {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(229, 231, 231);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: fit-content;
+
+  & h1 {
+    font-size: 20px;
+  }
+
+  & p {
+    font-size: 15px;
+  }
+
+  & img {
+    width: 200px;
+    object-fit: cover;
+  }
+}
+
+.containerCars {
+  display: flex;
+  flex-wrap: wrap;
+}

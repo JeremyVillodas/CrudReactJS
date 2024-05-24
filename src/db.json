@@ -1,0 +1,24 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "name": " Luis",
+      "description": " Es Luis",
+      "stock": 12
+    },
+
+    {
+      "id": 2,
+      "name": "Pedro",
+      "description": " Es Pedro",
+      "stock": 2
+    },
+
+    {
+      "id": 3,
+      "name": "Jazmin",
+      "description": "Es Jazmin",
+      "stock": 222
+    }
+  ]
+}
